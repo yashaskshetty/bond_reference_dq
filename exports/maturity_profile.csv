@@ -1,0 +1,6 @@
+maturity_bucket,instruments,avg_coupon,total_face_value
+0-1y  (money market),313,0.0,6341000.0
+1-5y  (short),1486,3.764,32428000.0
+10-30y (long),1406,3.747,27244000.0
+30y+  (ultra long),704,3.838,13069000.0
+5-10y (medium),713,3.833,12533000.0

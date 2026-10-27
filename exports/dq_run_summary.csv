@@ -1,0 +1,2 @@
+run_id,source_file,rows_read,rows_loaded,rows_rejected,pct_clean,status
+1,data/bond_master.csv,5000,4622,378,92.44,SUCCESS

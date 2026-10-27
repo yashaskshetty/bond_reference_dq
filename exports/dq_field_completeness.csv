@@ -1,0 +1,13 @@
+field_name,rows_populated,rows_total,pct_complete,missing
+instrument_type,4990,5000,99.8,10
+country,4990,5000,99.8,10
+issuer_name,4991,5000,99.82,9
+coupon_rate,4991,5000,99.82,9
+currency,4992,5000,99.84,8
+maturity_date,4992,5000,99.84,8
+face_value,4993,5000,99.86,7
+credit_rating,4994,5000,99.88,6
+issue_date,4998,5000,99.96,2
+isin,5000,5000,100.0,0
+coupon_frequency,5000,5000,100.0,0
+day_count,5000,5000,100.0,0

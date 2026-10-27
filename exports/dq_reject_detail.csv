@@ -1,0 +1,407 @@
+row_num,isin,rule_code,rule_name,severity,field_name,field_value,reason
+29,NLIWJ05YWZE1,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+38,JPZX8EBWOOD7,R08,Instrument type,REJECT,instrument_type,Bnd,'Bnd' is not a supported instrument type
+41,USTX68H5QLC5,R06,Currency code,REJECT,currency,usd,'usd' is not a recognised ISO 4217 code
+44,GBSSL615PWC0,R07,Credit rating scale,REJECT,credit_rating,AAA+,'AAA+' is not on the AAA-D rating scale
+51,GBV84VYHB1D6,R03,ISIN check digit,REJECT,isin,GBV84VYHB1D6,"check digit is 6, expected 3"
+54,CHBVB9O8A9P3,R10,Country prefix,WARN,country,FR,ISIN prefix 'CH' does not match country 'FR'
+54,CHBVB9O8A9P3,R13,Duplicate ISIN,REJECT,isin,CHBVB9O8A9P3,ISIN already present on row 10
+71,FRTXGLDKNRK7,R07,Credit rating scale,REJECT,credit_rating,Aa2,'Aa2' is not on the AAA-D rating scale
+77,USMXMU55AAC1,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+101,AUEES1EJDY55,R04,Date order,REJECT,maturity_date,2019-01-04,maturity 2019-01-04 is not after issue 2029-01-03
+102,US1WL1XWQ0Y0,R08,Instrument type,REJECT,instrument_type,Warrant,'Warrant' is not a supported instrument type
+108,US2KAHAPFOM6,R03,ISIN check digit,REJECT,isin,US2KAHAPFOM6,"check digit is 6, expected 7"
+114,US237R2AAG25,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+117,CHOIH5UWJ661,R03,ISIN check digit,REJECT,isin,CHOIH5UWJ661,"check digit is 1, expected 0"
+138,USRW3Q5FZWK5,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+139,JP9ODHG5VP60,R10,Country prefix,WARN,country,CA,ISIN prefix 'JP' does not match country 'CA'
+139,JP9ODHG5VP60,R13,Duplicate ISIN,REJECT,isin,JP9ODHG5VP60,ISIN already present on row 68
+170,GBOHQZKP08F6,R03,ISIN check digit,REJECT,isin,GBOHQZKP08F6,"check digit is 6, expected 4"
+193,GB3X1CK1DRO9,R06,Currency code,REJECT,currency,usd,'usd' is not a recognised ISO 4217 code
+196,USQ0W3TWBUT4,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+200,CAQRLDE9L158,R03,ISIN check digit,REJECT,isin,CAQRLDE9L158,"check digit is 8, expected 2"
+208,JPFOLBZLIFJ5,R03,ISIN check digit,REJECT,isin,JPFOLBZLIFJ5,"check digit is 5, expected 0"
+211,FR2I5G1WRWB1,R09,Face value,REJECT,face_value,-1000,face value -1000.0 must be positive
+232,AUYOQMMAHOK9,R04,Date order,REJECT,maturity_date,2022-01-02,maturity 2022-01-02 is not after issue 2023-01-02
+271,USXZRNUL5UU6,R04,Date order,REJECT,maturity_date,2018-04-09,maturity 2018-04-09 is not after issue 2038-04-09
+274,GBEWE9B44HW2,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+279,FRO340D25ZB7,R07,Credit rating scale,REJECT,credit_rating,A1,'A1' is not on the AAA-D rating scale
+288,USWBQ5K4B177,R04,Date order,REJECT,maturity_date,2017-12-18,maturity 2017-12-18 is not after issue 2019-12-18
+314,CH61UHVHDSE3,R03,ISIN check digit,REJECT,isin,CH61UHVHDSE3,"check digit is 3, expected 6"
+315,DE44GW9C59C8,R06,Currency code,REJECT,currency,usd,'usd' is not a recognised ISO 4217 code
+355,FRQH98BD7XZ5,R03,ISIN check digit,REJECT,isin,FRQH98BD7XZ5,"check digit is 5, expected 0"
+363,CHGX6K402KF0,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+370,GBVQ334FRX37,R08,Instrument type,REJECT,instrument_type,bond,'bond' is not a supported instrument type
+372,INL2HYRIX3S4,R06,Currency code,REJECT,currency,US,'US' is not a recognised ISO 4217 code
+386,SGK8N6XW1IU5,R10,Country prefix,WARN,country,CA,ISIN prefix 'SG' does not match country 'CA'
+386,SGK8N6XW1IU5,R13,Duplicate ISIN,REJECT,isin,SGK8N6XW1IU5,ISIN already present on row 80
+391,DEHUO0GEMR53,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+393,FR6VPUU9WJC6,R01,Mandatory field present,REJECT,issue_date,,mandatory field 'issue_date' is empty
+419,DEBRSPCOTDM3,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+422,GBWVSW54D3A7,R07,Credit rating scale,REJECT,credit_rating,A1,'A1' is not on the AAA-D rating scale
+453,GBCDEKPK2QA7,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+455,FREOWGCTQ1N5,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+457,DEOPP1K13721,R09,Face value,REJECT,face_value,-1000,face value -1000.0 must be positive
+493,SGGWGVSS1HS4,R03,ISIN check digit,REJECT,isin,SGGWGVSS1HS4,"check digit is 4, expected 8"
+496,GB1UN6BVUEN8,R04,Date order,REJECT,maturity_date,2018-11-04,maturity 2018-11-04 is not after issue 2020-11-03
+521,US9S8H3WCQE5,R07,Credit rating scale,REJECT,credit_rating,AAA+,'AAA+' is not on the AAA-D rating scale
+566,JPM1WY8UH8C9,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+586,INHRL9PFABD3,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+587,US2FGQRWD8B7,R06,Currency code,REJECT,currency,US,'US' is not a recognised ISO 4217 code
+623,SG9ST2MOEQW5,R03,ISIN check digit,REJECT,isin,SG9ST2MOEQW5,"check digit is 5, expected 2"
+653,USRQ3DY7FOY0,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+665,FRG9RH3DF3H0,R03,ISIN check digit,REJECT,isin,FRG9RH3DF3H0,"check digit is 0, expected 5"
+679,FR3DBUDN2IB7,R07,Credit rating scale,REJECT,credit_rating,Aa2,'Aa2' is not on the AAA-D rating scale
+711,CAH7IVJ4YG39,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+726,AU7Y7UQG9618,R09,Face value,REJECT,face_value,-1000,face value -1000.0 must be positive
+747,US1855LKBEB3,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+765,US4LROZIA9X4,R03,ISIN check digit,REJECT,isin,US4LROZIA9X4,"check digit is 4, expected 9"
+793,FRZP176RQ180,R04,Date order,REJECT,maturity_date,2020-06-29,maturity 2020-06-29 is not after issue 2020-10-04
+827,DEEOYLT59FY2,R06,Currency code,REJECT,currency,US,'US' is not a recognised ISO 4217 code
+874,USL9XPG5ORZ7,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+895,USJ7GREVI9U1,R03,ISIN check digit,REJECT,isin,USJ7GREVI9U1,"check digit is 1, expected 7"
+907,USYYY3CP4U32,R04,Date order,REJECT,maturity_date,2016-08-11,maturity 2016-08-11 is not after issue 2036-08-11
+909,CHYXFFGSEOS4,R06,Currency code,REJECT,currency,EURO,'EURO' is not a recognised ISO 4217 code
+910,JPSL28JACPB3,R08,Instrument type,REJECT,instrument_type,Bnd,'Bnd' is not a supported instrument type
+912,USZAP0KVHRD3,R09,Face value,REJECT,face_value,0,face value 0.0 must be positive
+915,USW89SNFIFC0,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+926,FRZNJ2J8E075,R08,Instrument type,REJECT,instrument_type,bond,'bond' is not a supported instrument type
+934,DEKOWPQ0JII4,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+938,IN665LF55PH2,R08,Instrument type,REJECT,instrument_type,Equity,'Equity' is not a supported instrument type
+955,GBECF3XVT4R0,R09,Face value,REJECT,face_value,-1000,face value -1000.0 must be positive
+975,INZ4SHYKELX4,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+987,DEG9YCIP34A3,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+993,GBWVLFCOA2W7,R01,Mandatory field present,REJECT,credit_rating,,mandatory field 'credit_rating' is empty
+1006,JP4BXHTAZ4R1,R09,Face value,REJECT,face_value,0,face value 0.0 must be positive
+1012,DE8GJAYCF215,R10,Country prefix,WARN,country,US,ISIN prefix 'DE' does not match country 'US'
+1012,DE8GJAYCF215,R13,Duplicate ISIN,REJECT,isin,DE8GJAYCF215,ISIN already present on row 65
+1017,usamuqnbcwz6,R02,ISIN format,REJECT,isin,usamuqnbcwz6,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+1017,usamuqnbcwz6,R10,Country prefix,WARN,country,US,ISIN prefix 'us' does not match country 'US'
+1018,USM0P3S0PLK9,R06,Currency code,REJECT,currency,GBPP,'GBPP' is not a recognised ISO 4217 code
+1020,US58ZYYW34F8,R03,ISIN check digit,REJECT,isin,US58ZYYW34F8,"check digit is 8, expected 0"
+1027,DELM0RSY9GI0,R08,Instrument type,REJECT,instrument_type,Warrant,'Warrant' is not a supported instrument type
+1050,DE15SM7NJEB8,R03,ISIN check digit,REJECT,isin,DE15SM7NJEB8,"check digit is 8, expected 9"
+1052,JPQ7UPMSF937,R01,Mandatory field present,REJECT,credit_rating,,mandatory field 'credit_rating' is empty
+1059,USWNNLXLIUT6,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+1064,DERM4VJKG805,R08,Instrument type,REJECT,instrument_type,Preferred Share,'Preferred Share' is not a supported instrument type
+1091,GBOCX6MTZ0A2,R06,Currency code,REJECT,currency,GBPP,'GBPP' is not a recognised ISO 4217 code
+1098,GBST2YTQ91U5,R03,ISIN check digit,REJECT,isin,GBST2YTQ91U5,"check digit is 5, expected 9"
+1102,USQYFJJCYTM7,R07,Credit rating scale,REJECT,credit_rating,A1,'A1' is not on the AAA-D rating scale
+1166,US33DMXWYFU4,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+1172,USCX6D79WZQ7,R09,Face value,REJECT,face_value,0,face value 0.0 must be positive
+1177,DE2RG2H0HIG5,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+1190,FR846SRP0BV9,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+1197,US7430XRQ7JX,R02,ISIN format,REJECT,isin,US7430XRQ7JX,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+1207,CARZ5PGQ11R9,R07,Credit rating scale,REJECT,credit_rating,Aa2,'Aa2' is not on the AAA-D rating scale
+1220,USM47Q0QOYT4,R01,Mandatory field present,REJECT,credit_rating,,mandatory field 'credit_rating' is empty
+1227,NL7D8RPNMXW9,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+1228,FRIMNZVDTFH0,R03,ISIN check digit,REJECT,isin,FRIMNZVDTFH0,"check digit is 0, expected 4"
+1241,USAD8YXAF1U9,R06,Currency code,REJECT,currency,EURO,'EURO' is not a recognised ISO 4217 code
+1248,IN0ME7I51Y14,R03,ISIN check digit,REJECT,isin,IN0ME7I51Y14,"check digit is 4, expected 7"
+1249,DEFYQV26Y5F2,R08,Instrument type,REJECT,instrument_type,Preferred Share,'Preferred Share' is not a supported instrument type
+1250,GBNG7CTQDVO6,R08,Instrument type,REJECT,instrument_type,Bnd,'Bnd' is not a supported instrument type
+1296,USBSHAWZCYY1,R04,Date order,REJECT,maturity_date,2022-01-27,maturity 2022-01-27 is not after issue 2024-01-27
+1298,NLCY57IQG8T6,R03,ISIN check digit,REJECT,isin,NLCY57IQG8T6,"check digit is 6, expected 0"
+1333,GB793HUPOE97,R06,Currency code,REJECT,currency,GBPP,'GBPP' is not a recognised ISO 4217 code
+1365,US5SGR3KHZ95,R04,Date order,REJECT,maturity_date,2018-12-29,maturity 2018-12-29 is not after issue 2048-12-28
+1374,SGWBE953WSB4,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+1390,US3FMRAB2SV8ZZ,R02,ISIN format,REJECT,isin,US3FMRAB2SV8ZZ,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+1406,JPFM4VERMCL3,R08,Instrument type,REJECT,instrument_type,Equity,'Equity' is not a supported instrument type
+1428,US5T36OCDVK5,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+1432,US4W2BF15KL9,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+1459,SGCOI8U50IY6,R03,ISIN check digit,REJECT,isin,SGCOI8U50IY6,"check digit is 6, expected 4"
+1482,DEJ3BGFXOO16,R04,Date order,REJECT,maturity_date,2016-04-07,maturity 2016-04-07 is not after issue 2046-04-07
+1511,CAJ7MBWB6NW9,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+1514,DE2Z1E569VL9,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+1518,DE9O45LPIPX8,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+1521,USAH474ZEJ42,R08,Instrument type,REJECT,instrument_type,Preferred Share,'Preferred Share' is not a supported instrument type
+1528,DEYBMAKVGAH5,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+1554,US0DRBKDKGX7,R03,ISIN check digit,REJECT,isin,US0DRBKDKGX7,"check digit is 7, expected 1"
+1568,USID871KQLT5,R03,ISIN check digit,REJECT,isin,USID871KQLT5,"check digit is 5, expected 9"
+1576,GB509GLU2Q06,R09,Face value,REJECT,face_value,abc,face value is not numeric
+1582,CAF68DCFVN89,R10,Country prefix,WARN,country,US,ISIN prefix 'CA' does not match country 'US'
+1582,CAF68DCFVN89,R13,Duplicate ISIN,REJECT,isin,CAF68DCFVN89,ISIN already present on row 814
+1586,CAAPF53WECF4,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+1619,DEEHMTP3A330,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+1629,GBCQGXTQ9F16,R08,Instrument type,REJECT,instrument_type,Equity,'Equity' is not a supported instrument type
+1639,JPBCVKQ8GNK1,R10,Country prefix,WARN,country,FR,ISIN prefix 'JP' does not match country 'FR'
+1639,JPBCVKQ8GNK1,R13,Duplicate ISIN,REJECT,isin,JPBCVKQ8GNK1,ISIN already present on row 2
+1649,CH4UF4EZEHP3,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+1661,CHS3UAT0FA33,R03,ISIN check digit,REJECT,isin,CHS3UAT0FA33,"check digit is 3, expected 9"
+1668,GBV18HB6THN2,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+1734,GBS13ZXPEVR0,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+1748,CH945TDT6C95,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+1754,USSOETXLE585,R13,Duplicate ISIN,REJECT,isin,USSOETXLE585,ISIN already present on row 198
+1757,GBG84E72KME6,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+1784,INHJ7WK8XCA7,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+1808,UST1YV1RZ9C7,R03,ISIN check digit,REJECT,isin,UST1YV1RZ9C7,"check digit is 7, expected 4"
+1817,JPE0O10U2W83,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+1823,DE7QFSDDUMJ5,R07,Credit rating scale,REJECT,credit_rating,A1,'A1' is not on the AAA-D rating scale
+1834,JPUWQZVO8LG2,R03,ISIN check digit,REJECT,isin,JPUWQZVO8LG2,"check digit is 2, expected 5"
+1836,DEZT5GJIVM79,R03,ISIN check digit,REJECT,isin,DEZT5GJIVM79,"check digit is 9, expected 7"
+1843,JPJ5AZKMD9Y4,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+1845,USOC3N9HLA76,R06,Currency code,REJECT,currency,EURO,'EURO' is not a recognised ISO 4217 code
+1852,USLBYHGE9RS1,R03,ISIN check digit,REJECT,isin,USLBYHGE9RS1,"check digit is 1, expected 6"
+1865,NLV7QIRUAIF5,R03,ISIN check digit,REJECT,isin,NLV7QIRUAIF5,"check digit is 5, expected 2"
+1868,DEC8ZHPKIDO8,R04,Date order,REJECT,maturity_date,2024-12-15,maturity 2024-12-15 is not after issue 2026-12-15
+1893,USHK094AYK01,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+1897,FRISTMOA15I6,R10,Country prefix,WARN,country,CA,ISIN prefix 'FR' does not match country 'CA'
+1897,FRISTMOA15I6,R13,Duplicate ISIN,REJECT,isin,FRISTMOA15I6,ISIN already present on row 904
+1925,USLC6FSPPBJ7,R03,ISIN check digit,REJECT,isin,USLC6FSPPBJ7,"check digit is 7, expected 0"
+1939,GBUUEQTPX818,R03,ISIN check digit,REJECT,isin,GBUUEQTPX818,"check digit is 8, expected 0"
+1945,CASHMVBXXDQ5,R06,Currency code,REJECT,currency,usd,'usd' is not a recognised ISO 4217 code
+1946,USR8MHFW5EQ8,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+1950,GBF14X1VCAA6,R03,ISIN check digit,REJECT,isin,GBF14X1VCAA6,"check digit is 6, expected 3"
+1955,CAYL7VCQXEF9,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+1970,CAVVAQDP0DM1,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+1971,DE82RYF7IYP5,R10,Country prefix,WARN,country,JP,ISIN prefix 'DE' does not match country 'JP'
+1971,DE82RYF7IYP5,R13,Duplicate ISIN,REJECT,isin,DE82RYF7IYP5,ISIN already present on row 1555
+2001,DE42IVEB9BE7,R03,ISIN check digit,REJECT,isin,DE42IVEB9BE7,"check digit is 7, expected 2"
+2053,de69wd7dnay2,R02,ISIN format,REJECT,isin,de69wd7dnay2,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+2053,de69wd7dnay2,R10,Country prefix,WARN,country,DE,ISIN prefix 'de' does not match country 'DE'
+2074,US2QNXDB4UG7,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+2080,FRS7RVPVZX97,R03,ISIN check digit,REJECT,isin,FRS7RVPVZX97,"check digit is 7, expected 2"
+2100,AUPTRP0G2OS9,R03,ISIN check digit,REJECT,isin,AUPTRP0G2OS9,"check digit is 9, expected 1"
+2102,DESP1ZDO4BI8,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+2107,NLOD62XYRGZ6,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+2108,GBT9EUJ31E56,R04,Date order,REJECT,maturity_date,2020-07-29,maturity 2020-07-29 is not after issue 2021-07-29
+2117,INBUODDV8OJ2,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+2120,GBYP8L1SU3G0,R04,Date order,REJECT,maturity_date,2019-12-02,maturity 2019-12-02 is not after issue 2024-12-01
+2139,US6RO7MNQY36,R13,Duplicate ISIN,REJECT,isin,US6RO7MNQY36,ISIN already present on row 536
+2157,US3QX2W7Y8T0,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+2168,CA2Y6KPH0W83,R10,Country prefix,WARN,country,SG,ISIN prefix 'CA' does not match country 'SG'
+2168,CA2Y6KPH0W83,R13,Duplicate ISIN,REJECT,isin,CA2Y6KPH0W83,ISIN already present on row 1621
+2218,DEQPBYORMIU8,R09,Face value,REJECT,face_value,abc,face value is not numeric
+2235,US99OJCI7UG1,R03,ISIN check digit,REJECT,isin,US99OJCI7UG1,"check digit is 1, expected 9"
+2248,GBFOF3FKARN6,R03,ISIN check digit,REJECT,isin,GBFOF3FKARN6,"check digit is 6, expected 1"
+2256,GBDA2NQW9Q90,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+2258,CACTN2QY1EW0,R08,Instrument type,REJECT,instrument_type,Equity,'Equity' is not a supported instrument type
+2289,NL9KTZCTD348,R09,Face value,REJECT,face_value,0,face value 0.0 must be positive
+2299,DEY1PHST7NP0,R03,ISIN check digit,REJECT,isin,DEY1PHST7NP0,"check digit is 0, expected 3"
+2306,JPBZJZBKPJ72,R07,Credit rating scale,REJECT,credit_rating,BBB++,'BBB++' is not on the AAA-D rating scale
+2311,USB3UQLL1X07,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+2315,NLZD6C0HDYQ8,R04,Date order,REJECT,maturity_date,2017-07-24,maturity 2017-07-24 is not after issue 2027-07-24
+2330,IN8NDHDGTSJ4,R09,Face value,REJECT,face_value,0,face value 0.0 must be positive
+2333,USTML1OY5PU1,R10,Country prefix,WARN,country,NL,ISIN prefix 'US' does not match country 'NL'
+2333,USTML1OY5PU1,R13,Duplicate ISIN,REJECT,isin,USTML1OY5PU1,ISIN already present on row 1271
+2337,GBKWWCJ4GJD8,R03,ISIN check digit,REJECT,isin,GBKWWCJ4GJD8,"check digit is 8, expected 5"
+2345,NLO7CLLAODD6,R03,ISIN check digit,REJECT,isin,NLO7CLLAODD6,"check digit is 6, expected 7"
+2351,CAJUP77YYHU2,R03,ISIN check digit,REJECT,isin,CAJUP77YYHU2,"check digit is 2, expected 5"
+2353,DED6JRG7IB00,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+2375,DES70CBA3O43,R03,ISIN check digit,REJECT,isin,DES70CBA3O43,"check digit is 3, expected 0"
+2387,JPGU8U24C5K1,R01,Mandatory field present,REJECT,issue_date,,mandatory field 'issue_date' is empty
+2388,USWWB5PUZZ75,R03,ISIN check digit,REJECT,isin,USWWB5PUZZ75,"check digit is 5, expected 4"
+2390,FROEM73K5B90,R03,ISIN check digit,REJECT,isin,FROEM73K5B90,"check digit is 0, expected 4"
+2400,DELQO63R4K53,R03,ISIN check digit,REJECT,isin,DELQO63R4K53,"check digit is 3, expected 7"
+2403,CHJNKS6ASZC7,R03,ISIN check digit,REJECT,isin,CHJNKS6ASZC7,"check digit is 7, expected 1"
+2412,IN7K6LLVD0I9,R03,ISIN check digit,REJECT,isin,IN7K6LLVD0I9,"check digit is 9, expected 0"
+2427,DE25329JCRW3,R03,ISIN check digit,REJECT,isin,DE25329JCRW3,"check digit is 3, expected 4"
+2433,SGDV798U5VQ4,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+2442,JPFSK27ONZE6,R04,Date order,REJECT,maturity_date,2016-01-03,maturity 2016-01-03 is not after issue 2017-01-02
+2456,GBBYZEKQ8JZ4,R04,Date order,REJECT,maturity_date,2021-02-28,maturity 2021-02-28 is not after issue 2031-02-28
+2479,GB6UN948MYR0,R07,Credit rating scale,REJECT,credit_rating,AAA+,'AAA+' is not on the AAA-D rating scale
+2482,DE850UC1OEX5,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+2485,CHK9PDZSVT09,R03,ISIN check digit,REJECT,isin,CHK9PDZSVT09,"check digit is 9, expected 1"
+2490,DEGH1XQYSR43,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+2499,GBGFCNYP1QP4,R04,Date order,REJECT,maturity_date,2020-12-26,maturity 2020-12-26 is not after issue 2050-12-26
+2501,USMIC5PVII72,R03,ISIN check digit,REJECT,isin,USMIC5PVII72,"check digit is 2, expected 3"
+2502,US36XJLXXZ55,R08,Instrument type,REJECT,instrument_type,Bnd,'Bnd' is not a supported instrument type
+2505,NLIW5V38FX76,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+2513,IN798Q1WKP96,R04,Date order,REJECT,maturity_date,2019-03-12,maturity 2019-03-12 is not after issue 2049-03-11
+2537,JP50MPTD9EJ8,R10,Country prefix,WARN,country,DE,ISIN prefix 'JP' does not match country 'DE'
+2537,JP50MPTD9EJ8,R13,Duplicate ISIN,REJECT,isin,JP50MPTD9EJ8,ISIN already present on row 2057
+2538,USPVSIXBR4I5,R10,Country prefix,WARN,country,NL,ISIN prefix 'US' does not match country 'NL'
+2538,USPVSIXBR4I5,R13,Duplicate ISIN,REJECT,isin,USPVSIXBR4I5,ISIN already present on row 416
+2548,USK094J4IH16ZZ,R02,ISIN format,REJECT,isin,USK094J4IH16ZZ,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+2550,USC2SKSX07K8,R09,Face value,REJECT,face_value,abc,face value is not numeric
+2553,NLKW6AZF7LC9,R06,Currency code,REJECT,currency,EURO,'EURO' is not a recognised ISO 4217 code
+2560,CA703ROA5RR6,R03,ISIN check digit,REJECT,isin,CA703ROA5RR6,"check digit is 6, expected 8"
+2590,JPRBWOVB6MP8,R08,Instrument type,REJECT,instrument_type,Warrant,'Warrant' is not a supported instrument type
+2593,GBQ5ADTZ8R55,R08,Instrument type,REJECT,instrument_type,Preferred Share,'Preferred Share' is not a supported instrument type
+2594,DEGUQF4XPZ64,R13,Duplicate ISIN,REJECT,isin,DEGUQF4XPZ64,ISIN already present on row 1205
+2598,USW73LO2KM93,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+2601,DE9CT7PGVCW2,R03,ISIN check digit,REJECT,isin,DE9CT7PGVCW2,"check digit is 2, expected 9"
+2633,GBOH3M0FPD17,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+2645,US4B594IUMN8,R07,Credit rating scale,REJECT,credit_rating,BBB++,'BBB++' is not on the AAA-D rating scale
+2653,USLUGTN7FO89,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+2680,USU8VHSUF0A7,R03,ISIN check digit,REJECT,isin,USU8VHSUF0A7,"check digit is 7, expected 5"
+2692,US6GCAHGTWD4,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+2726,GBL8T8WN5RW8,R04,Date order,REJECT,maturity_date,2022-11-09,maturity 2022-11-09 is not after issue 2032-11-08
+2757,JP80EAI42TF0,R04,Date order,REJECT,maturity_date,2017-08-04,maturity 2017-08-04 is not after issue 2018-08-04
+2784,FR3FMXZESMZ7,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+2818,NLHXEPP7Z1T7,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+2819,FRYTAJKJOBJ3,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+2838,CHYMTS1058K7,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+2850,CA2E11ZR87S7,R03,ISIN check digit,REJECT,isin,CA2E11ZR87S7,"check digit is 7, expected 5"
+2860,GBWZ4QE2AOR0,R10,Country prefix,WARN,country,NL,ISIN prefix 'GB' does not match country 'NL'
+2860,GBWZ4QE2AOR0,R13,Duplicate ISIN,REJECT,isin,GBWZ4QE2AOR0,ISIN already present on row 2426
+2864,USKDAVMXEKZ3,R10,Country prefix,WARN,country,DE,ISIN prefix 'US' does not match country 'DE'
+2864,USKDAVMXEKZ3,R13,Duplicate ISIN,REJECT,isin,USKDAVMXEKZ3,ISIN already present on row 186
+2869,NLO82VEYB677,R10,Country prefix,WARN,country,JP,ISIN prefix 'NL' does not match country 'JP'
+2869,NLO82VEYB677,R13,Duplicate ISIN,REJECT,isin,NLO82VEYB677,ISIN already present on row 145
+2883,SGHPLB903VN6,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+2903,GB10GSUSBSD8ZZ,R02,ISIN format,REJECT,isin,GB10GSUSBSD8ZZ,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+2910,GBQB43CXWCO9,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+2943,CAOTLVM6HFD5,R03,ISIN check digit,REJECT,isin,CAOTLVM6HFD5,"check digit is 5, expected 7"
+2963,AU2OU52M5OW8,R03,ISIN check digit,REJECT,isin,AU2OU52M5OW8,"check digit is 8, expected 3"
+2969,NLF27ZJVWFL7,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+2975,USQ28E743VH8,R07,Credit rating scale,REJECT,credit_rating,AAA+,'AAA+' is not on the AAA-D rating scale
+3003,GBVIQE14UP31,R03,ISIN check digit,REJECT,isin,GBVIQE14UP31,"check digit is 1, expected 9"
+3006,FRWYT4UXBBL1,R08,Instrument type,REJECT,instrument_type,Bnd,'Bnd' is not a supported instrument type
+3018,JPTDPERQM702,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+3032,SGM7L557B9G6,R06,Currency code,REJECT,currency,GBPP,'GBPP' is not a recognised ISO 4217 code
+3047,DEBLVPWQ1A20,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+3059,AU7P89FTXJ46,R07,Credit rating scale,REJECT,credit_rating,BBB++,'BBB++' is not on the AAA-D rating scale
+3065,GB3C14ZF34X3,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+3072,DE3XT861XMT9,R03,ISIN check digit,REJECT,isin,DE3XT861XMT9,"check digit is 9, expected 8"
+3079,AUJDCKK3LA75,R04,Date order,REJECT,maturity_date,2022-07-06,maturity 2022-07-06 is not after issue 2024-07-05
+3106,USDSPYPIWPT0,R03,ISIN check digit,REJECT,isin,USDSPYPIWPT0,"check digit is 0, expected 6"
+3158,CH9QJQGWCOT1,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+3165,USHAFKHT99M6,R08,Instrument type,REJECT,instrument_type,Warrant,'Warrant' is not a supported instrument type
+3166,DEPZWYD3CUH6,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+3166,DEPZWYD3CUH6,R11,Coupon frequency,WARN,coupon_frequency,0,zero-coupon instrument carries a 450.0% coupon
+3186,CHRKSI5851R7,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+3231,IN5C6CV3VZW8,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+3238,GBWEWZ9I11D9,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+3247,GBEBQ3OGUEB5,R04,Date order,REJECT,maturity_date,2021-10-12,maturity 2021-10-12 is not after issue 2031-10-12
+3251,JPH6ICMQZ455,R10,Country prefix,WARN,country,US,ISIN prefix 'JP' does not match country 'US'
+3251,JPH6ICMQZ455,R13,Duplicate ISIN,REJECT,isin,JPH6ICMQZ455,ISIN already present on row 3049
+3252,GBWCHFLPHKU4,R03,ISIN check digit,REJECT,isin,GBWCHFLPHKU4,"check digit is 4, expected 5"
+3268,INHQG4RF3D63,R03,ISIN check digit,REJECT,isin,INHQG4RF3D63,"check digit is 3, expected 8"
+3271,GBVDY53LJT53,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+3297,JPP1ERGNRVQ4,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+3305,AU9FI2XDKKC1,R09,Face value,REJECT,face_value,abc,face value is not numeric
+3319,DE5GF71YDZY0,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+3337,JPU7FX2YGQ39,R03,ISIN check digit,REJECT,isin,JPU7FX2YGQ39,"check digit is 9, expected 2"
+3340,SGFBHG0P01M2,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+3344,US1ZCIXPB6L0,R03,ISIN check digit,REJECT,isin,US1ZCIXPB6L0,"check digit is 0, expected 4"
+3349,CHD8TY3UMUJ3,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+3362,US8PSK0BTOV8,R03,ISIN check digit,REJECT,isin,US8PSK0BTOV8,"check digit is 8, expected 6"
+3374,USY3M8P33JF7,R10,Country prefix,WARN,country,DE,ISIN prefix 'US' does not match country 'DE'
+3374,USY3M8P33JF7,R13,Duplicate ISIN,REJECT,isin,USY3M8P33JF7,ISIN already present on row 807
+3406,DEA5PXVNFJY9,R03,ISIN check digit,REJECT,isin,DEA5PXVNFJY9,"check digit is 9, expected 8"
+3407,USJIBF16J9S4,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+3442,CHH4ADR2O767,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+3443,US9XZJK2BT00,R06,Currency code,REJECT,currency,usd,'usd' is not a recognised ISO 4217 code
+3452,GB4O2I2GTAQ4,R07,Credit rating scale,REJECT,credit_rating,BBB++,'BBB++' is not on the AAA-D rating scale
+3456,USQ9V8UMFRN7,R03,ISIN check digit,REJECT,isin,USQ9V8UMFRN7,"check digit is 7, expected 4"
+3483,USE06PNA64F8,R13,Duplicate ISIN,REJECT,isin,USE06PNA64F8,ISIN already present on row 3015
+3502,FR4WEJJ312B1,R03,ISIN check digit,REJECT,isin,FR4WEJJ312B1,"check digit is 1, expected 7"
+3518,USRJI3AARK43,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+3538,GB9H79GZ7F19,R03,ISIN check digit,REJECT,isin,GB9H79GZ7F19,"check digit is 9, expected 4"
+3566,DEA03KTATIH8,R10,Country prefix,WARN,country,US,ISIN prefix 'DE' does not match country 'US'
+3566,DEA03KTATIH8,R13,Duplicate ISIN,REJECT,isin,DEA03KTATIH8,ISIN already present on row 385
+3572,FR4J4RFGIFU2,R08,Instrument type,REJECT,instrument_type,Warrant,'Warrant' is not a supported instrument type
+3601,GBWFNS30WL55,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+3616,CHYVDM1Y9KJ8,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+3618,US7QQZTJ5P28,R03,ISIN check digit,REJECT,isin,US7QQZTJ5P28,"check digit is 8, expected 4"
+3632,SGC1MWW30FH8,R03,ISIN check digit,REJECT,isin,SGC1MWW30FH8,"check digit is 8, expected 3"
+3637,NLTKDFMB0T46,R04,Date order,REJECT,maturity_date,2018-12-11,maturity 2018-12-11 is not after issue 2028-12-10
+3702,INZ22264AM31,R10,Country prefix,WARN,country,DE,ISIN prefix 'IN' does not match country 'DE'
+3702,INZ22264AM31,R13,Duplicate ISIN,REJECT,isin,INZ22264AM31,ISIN already present on row 1135
+3707,SGZQE4TEOW18,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+3717,GBP5XRE4D4T6,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+3725,DEU7CYQAT8P5,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+3730,gbd9iduvlav2,R02,ISIN format,REJECT,isin,gbd9iduvlav2,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+3730,gbd9iduvlav2,R10,Country prefix,WARN,country,GB,ISIN prefix 'gb' does not match country 'GB'
+3739,DEX1YFOJVVO5,R04,Date order,REJECT,maturity_date,2021-12-05,maturity 2021-12-05 is not after issue 2031-12-05
+3769,GB48QPTYUKT4,R03,ISIN check digit,REJECT,isin,GB48QPTYUKT4,"check digit is 4, expected 6"
+3773,USDM6F9F6304,R04,Date order,REJECT,maturity_date,2016-12-03,maturity 2016-12-03 is not after issue 2036-12-03
+3777,CH3DJ02PGFF2,R03,ISIN check digit,REJECT,isin,CH3DJ02PGFF2,"check digit is 2, expected 9"
+3796,GBFRY52E6PV8,R03,ISIN check digit,REJECT,isin,GBFRY52E6PV8,"check digit is 8, expected 1"
+3800,US393MRWBEQ4,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+3810,USGR7PK7CSK6,R07,Credit rating scale,REJECT,credit_rating,Aa2,'Aa2' is not on the AAA-D rating scale
+3832,CAE4T53LH1I0,R07,Credit rating scale,REJECT,credit_rating,A1,'A1' is not on the AAA-D rating scale
+3864,CAWKZ6JIH103,R04,Date order,REJECT,maturity_date,2018-12-09,maturity 2018-12-09 is not after issue 2020-12-08
+3875,NL1LHML8GYJ0,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+3889,USM5ZSW7CEC2,R04,Date order,REJECT,maturity_date,2022-04-17,maturity 2022-04-17 is not after issue 2042-04-17
+3921,USWGTYRTVA83,R04,Date order,REJECT,maturity_date,2019-12-11,maturity 2019-12-11 is not after issue 2049-12-10
+3925,US9Y797S92B0,R03,ISIN check digit,REJECT,isin,US9Y797S92B0,"check digit is 0, expected 5"
+3926,US6DSOVK5KY2,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+3950,GBO8GXZ1ZF73,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+3963,DEGM6AZO62V9,R03,ISIN check digit,REJECT,isin,DEGM6AZO62V9,"check digit is 9, expected 2"
+3971,GB55A9JSFB79,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+3973,FRU53TOCD7V2,R04,Date order,REJECT,maturity_date,2021-02-26,maturity 2021-02-26 is not after issue 2041-02-26
+3980,US2B46RV0IP0,R10,Country prefix,WARN,country,CA,ISIN prefix 'US' does not match country 'CA'
+3980,US2B46RV0IP0,R13,Duplicate ISIN,REJECT,isin,US2B46RV0IP0,ISIN already present on row 3522
+3982,GB5DEI6CAGU1,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+3985,JPGOKQ7CXLT6,R06,Currency code,REJECT,currency,usd,'usd' is not a recognised ISO 4217 code
+3986,CH8S6WBSJX36,R01,Mandatory field present,REJECT,credit_rating,,mandatory field 'credit_rating' is empty
+4000,FRO75ZDSZK94,R03,ISIN check digit,REJECT,isin,FRO75ZDSZK94,"check digit is 4, expected 2"
+4012,GB9CWK7S3CC0,R03,ISIN check digit,REJECT,isin,GB9CWK7S3CC0,"check digit is 0, expected 1"
+4029,DEZJI3EIRT47,R03,ISIN check digit,REJECT,isin,DEZJI3EIRT47,"check digit is 7, expected 1"
+4042,USK4QH4IOPQX,R02,ISIN format,REJECT,isin,USK4QH4IOPQX,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+4054,GBE4KOI4F842,R04,Date order,REJECT,maturity_date,2022-05-25,maturity 2022-05-25 is not after issue 2024-05-24
+4068,DE7JYX34UU39,R04,Date order,REJECT,maturity_date,2015-02-02,maturity 2015-02-02 is not after issue 2025-02-01
+4106,USU5MS72,R02,ISIN format,REJECT,isin,USU5MS72,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+4120,GBQHAVSUB8N5,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+4139,GBH4NOBXJKW3,R01,Mandatory field present,REJECT,issuer_name,,mandatory field 'issuer_name' is empty
+4152,DEN3RPA63CP5,R13,Duplicate ISIN,REJECT,isin,DEN3RPA63CP5,ISIN already present on row 1114
+4154,JP6QFB5M3CJ5,R06,Currency code,REJECT,currency,US,'US' is not a recognised ISO 4217 code
+4169,NLPO92F9THB2,R03,ISIN check digit,REJECT,isin,NLPO92F9THB2,"check digit is 2, expected 4"
+4173,USYKZCW6A7YX,R02,ISIN format,REJECT,isin,USYKZCW6A7YX,ISIN must be 2 letters + 9 alphanumerics + 1 check digit
+4182,US1J0IIG8JN7,R06,Currency code,REJECT,currency,US,'US' is not a recognised ISO 4217 code
+4201,IN3ZGD5MTJH2,R03,ISIN check digit,REJECT,isin,IN3ZGD5MTJH2,"check digit is 2, expected 3"
+4214,FRE2191N2GR9,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+4226,FRU0UYW31IT7,R03,ISIN check digit,REJECT,isin,FRU0UYW31IT7,"check digit is 7, expected 1"
+4236,SG0E4GHNBOV7,R09,Face value,REJECT,face_value,-1000,face value -1000.0 must be positive
+4246,DEUDP6ESN570,R08,Instrument type,REJECT,instrument_type,Preferred Share,'Preferred Share' is not a supported instrument type
+4256,AUAGAGGMEPG0,R05,Coupon range,REJECT,coupon_rate,450.000,coupon 450.0 outside 0.0-25.0%
+4261,JPL9IM1OJAJ6,R03,ISIN check digit,REJECT,isin,JPL9IM1OJAJ6,"check digit is 6, expected 5"
+4284,CAN2XPNBMIC1,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+4288,DEKID5T1KM22,R03,ISIN check digit,REJECT,isin,DEKID5T1KM22,"check digit is 2, expected 3"
+4297,SGK8IO528VF2,R04,Date order,REJECT,maturity_date,2021-02-13,maturity 2021-02-13 is not after issue 2031-02-13
+4308,USH9A8A6C2F7,R04,Date order,REJECT,maturity_date,2019-04-10,maturity 2019-04-10 is not after issue 2019-07-04
+4320,SG0WVC5D7FZ2,R04,Date order,REJECT,maturity_date,2024-05-02,maturity 2024-05-02 is not after issue 2029-05-02
+4322,CA500IM04527,R03,ISIN check digit,REJECT,isin,CA500IM04527,"check digit is 7, expected 2"
+4328,JPKI797ZK5U5,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+4329,USFXZ9C5SJF8,R04,Date order,REJECT,maturity_date,2017-10-12,maturity 2017-10-12 is not after issue 2019-10-12
+4357,INC8Y7HMJQM3,R07,Credit rating scale,REJECT,credit_rating,Aa2,'Aa2' is not on the AAA-D rating scale
+4390,SG700PVEYTS7,R01,Mandatory field present,REJECT,face_value,,mandatory field 'face_value' is empty
+4405,US9KLQ5J9FQ0,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+4417,DEOKH6JC8EM3,R05,Coupon range,REJECT,coupon_rate,N/A,coupon rate is not numeric
+4425,SGSF2KUO8U16,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+4445,AUJ64AXQNSW0,R03,ISIN check digit,REJECT,isin,AUJ64AXQNSW0,"check digit is 0, expected 3"
+4475,FRA59A6UG1Y2,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+4494,USWK9KFBRVS3,R01,Mandatory field present,REJECT,credit_rating,,mandatory field 'credit_rating' is empty
+4509,GBGNC0794087,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+4511,INQQJA7DMQH1,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+4518,GB9UHTZM3RR9,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+4540,GB8C1PMR45S4,R03,ISIN check digit,REJECT,isin,GB8C1PMR45S4,"check digit is 4, expected 9"
+4560,CH6FU6231Y73,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+4573,FRSVIH8CSCM2,R08,Instrument type,REJECT,instrument_type,Equity,'Equity' is not a supported instrument type
+4579,AUJ0BIE3OPQ3,R10,Country prefix,WARN,country,DE,ISIN prefix 'AU' does not match country 'DE'
+4579,AUJ0BIE3OPQ3,R13,Duplicate ISIN,REJECT,isin,AUJ0BIE3OPQ3,ISIN already present on row 2358
+4594,AUMCULYVGRG9,R03,ISIN check digit,REJECT,isin,AUMCULYVGRG9,"check digit is 9, expected 7"
+4600,USS9IL4XBVD3,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+4603,JP8KAPVYJ5J5,R05,Coupon range,REJECT,coupon_rate,99.900,coupon 99.9 outside 0.0-25.0%
+4603,JP8KAPVYJ5J5,R11,Coupon frequency,WARN,coupon_frequency,0,zero-coupon instrument carries a 99.9% coupon
+4607,CAQK3Q2Y82Z7,R03,ISIN check digit,REJECT,isin,CAQK3Q2Y82Z7,"check digit is 7, expected 3"
+4611,FR92IX0PB3B0,R10,Country prefix,WARN,country,NL,ISIN prefix 'FR' does not match country 'NL'
+4611,FR92IX0PB3B0,R13,Duplicate ISIN,REJECT,isin,FR92IX0PB3B0,ISIN already present on row 3465
+4633,INLAIHR7LNX0,R01,Mandatory field present,REJECT,maturity_date,,mandatory field 'maturity_date' is empty
+4637,SGKC52457Y33,R07,Credit rating scale,REJECT,credit_rating,NR,'NR' is not on the AAA-D rating scale
+4642,USJ8K9B4NAY2,R01,Mandatory field present,REJECT,currency,,mandatory field 'currency' is empty
+4688,USANHUKMIC38,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+4714,DEDXBCB7KW57,R04,Date order,REJECT,maturity_date,2016-04-23,maturity 2016-04-23 is not after issue 2036-04-23
+4718,SG2MJO036SO5,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+4726,FRCGIA6ME4H1,R04,Date order,REJECT,maturity_date,2022-11-16,maturity 2022-11-16 is not after issue 2032-11-15
+4789,NLODVK3SAWT0,R01,Mandatory field present,REJECT,country,,mandatory field 'country' is empty
+4822,FRA9M1ND77U3,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+4830,DE9NH3QONOW3,R04,Date order,REJECT,maturity_date,2015-10-13,maturity 2015-10-13 is not after issue 2017-10-12
+4837,DEX5HV81CR10,R03,ISIN check digit,REJECT,isin,DEX5HV81CR10,"check digit is 0, expected 9"
+4879,DEPMW70Z5GM0,R03,ISIN check digit,REJECT,isin,DEPMW70Z5GM0,"check digit is 0, expected 9"
+4883,CHKD6MJE69P9,R03,ISIN check digit,REJECT,isin,CHKD6MJE69P9,"check digit is 9, expected 2"
+4902,FRWO48OU18B9,R06,Currency code,REJECT,currency,XXX,'XXX' is not a recognised ISO 4217 code
+4903,DEP9R94MWK59,R04,Date order,REJECT,maturity_date,2023-08-29,maturity 2023-08-29 is not after issue 2053-08-28
+4913,DEYOPIW8A7M4,R07,Credit rating scale,REJECT,credit_rating,BBB++,'BBB++' is not on the AAA-D rating scale
+4921,JPPJKVIP5QL0,R04,Date order,REJECT,maturity_date,2016-09-10,maturity 2016-09-10 is not after issue 2017-09-10
+4964,USVCL5W0LHF9,R04,Date order,REJECT,maturity_date,2016-09-12,maturity 2016-09-12 is not after issue 2036-09-12
+4967,JPDXA16E6YX7,R01,Mandatory field present,REJECT,instrument_type,,mandatory field 'instrument_type' is empty
+4977,JP87BFU0M9K9,R07,Credit rating scale,REJECT,credit_rating,Aa2,'Aa2' is not on the AAA-D rating scale
+4979,DEKXTNBO10V5,R01,Mandatory field present,REJECT,coupon_rate,,mandatory field 'coupon_rate' is empty
+4980,GB97W3BLML75,R05,Coupon range,REJECT,coupon_rate,-2.500,coupon -2.5 outside 0.0-25.0%
+4984,FR9NY7LCTT36,R01,Mandatory field present,REJECT,credit_rating,,mandatory field 'credit_rating' is empty
+4987,FRPCW168Z0Q8,R10,Country prefix,WARN,country,GB,ISIN prefix 'FR' does not match country 'GB'
+4987,FRPCW168Z0Q8,R13,Duplicate ISIN,REJECT,isin,FRPCW168Z0Q8,ISIN already present on row 1885
+5000,INAUAHGQ87Z6,R03,ISIN check digit,REJECT,isin,INAUAHGQ87Z6,"check digit is 6, expected 7"

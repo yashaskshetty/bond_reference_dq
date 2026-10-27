@@ -1,0 +1,13 @@
+rule_code,rule_name,severity,rejections,pct_of_total
+R03,ISIN check digit,REJECT,91,22.41
+R01,Mandatory field present,REJECT,69,17.0
+R05,Coupon range,REJECT,47,11.58
+R04,Date order,REJECT,41,10.1
+R07,Credit rating scale,REJECT,30,7.39
+R13,Duplicate ISIN,REJECT,28,6.9
+R06,Currency code,REJECT,26,6.4
+R10,Country prefix,WARN,26,6.4
+R08,Instrument type,REJECT,22,5.42
+R09,Face value,REJECT,14,3.45
+R02,ISIN format,REJECT,10,2.46
+R11,Coupon frequency,WARN,2,0.49
